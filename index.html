@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nandhish Srinivasan — AI + UI Portfolio</title>
+    <meta
+      name="description"
+      content="Aspiring AI Engineer • Machine Learning • Python • Data Analysis • UI/Graphic Design • Web Development • AI Receptionist"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <a class="skip" href="#about">Skip to content</a>
+
+    <!-- Fullscreen 3D background -->
+    <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+    <!-- Sticky Navbar -->
+    <header class="nav" id="top">
+      <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__name">Nandhish</span>
+          <span class="brand__sub">AI • UI • Web</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav__cta">
+          <a class="btn btn--sm btn--gold" href="#contact">Hire Me</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Floating Contact (always visible) -->
+    <aside class="floatDock" aria-label="Quick contact">
+      <a class="dockBtn" href="tel:+917812876115" aria-label="Call Nandhish">
+        <span class="dockBtn__icon" aria-hidden="true">📞</span>
+        <span class="dockBtn__txt">Call</span>
+      </a>
+      <a class="dockBtn" href="mailto:n92581342@gmail.com" aria-label="Email Nandhish">
+        <span class="dockBtn__icon" aria-hidden="true">✉️</span>
+        <span class="dockBtn__txt">Email</span>
+      </a>
+      <a
+        class="dockBtn dockBtn--gold"
+        href="https://www.linkedin.com/in/nandhish-srinivasan-b8bb51308/"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Open LinkedIn profile in a new tab"
+      >
+        <span class="dockBtn__icon" aria-hidden="true">in</span>
+        <span class="dockBtn__txt">LinkedIn</span>
+      </a>
+    </aside>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <div class="kicker">Aspiring AI Engineer • UI/Graphic Portfolio</div>
+            <h1>Turning data into intelligent solutions — with design that converts.</h1>
+            <p class="lead">
+              Skilled in <strong>Machine Learning</strong>, <strong>Python</strong> &amp; <strong>Data Analysis</strong>.
+              I also build high‑impact websites for restaurants and local businesses, and I'm developing an
+              <strong>AI receptionist</strong> as my second priority.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--gold" href="#services">View Services</a>
+              <a class="btn btn--ghost" href="#contact">Contact</a>
+              <a
+                class="btn btn--ghost"
+                href="https://www.linkedin.com/in/nandhish-srinivasan-b8bb51308/"
+                target="_blank"
+                rel="noreferrer"
+                >View LinkedIn</a
+              >
+            </div>
+
+            <div class="hero__meta">
+              <span class="pill">Machine Learning</span>
+              <span class="pill">Deep Learning</span>
+              <span class="pill">AI Prompting</span>
+              <span class="pill">Web Development</span>
+              <span class="pill">UI/Graphic Design</span>
+            </div>
+          </div>
+
+          <div class="hero__sceneWrap" id="heroTilt" aria-label="Cinematic panel">
+            <div class="sceneBadge" aria-hidden="true">
+              <span class="sceneBadge__dot"></span>
+              <span>3D background • cinematic • smooth</span>
+            </div>
+
+            <div class="heroCard">
+              <div class="heroCard__kicker">Available for</div>
+              <div class="heroCard__title">Freelance &amp; Internships</div>
+              <div class="heroCard__text">
+                Premium websites for businesses + AI/ML problem-solving. One click to reach me anytime.
+              </div>
+              <div class="heroCard__actions">
+                <a class="btn btn--sm btn--gold" href="tel:+917812876115">Call</a>
+                <a class="btn btn--sm btn--ghost" href="mailto:n92581342@gmail.com">Email</a>
+                <a
+                  class="btn btn--sm btn--ghost"
+                  href="https://www.linkedin.com/in/nandhish-srinivasan-b8bb51308/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <div class="container">
+          <div class="sectionHead">
+            <div class="kicker">About</div>
+            <h2>Hi, I'm Nandhish Srinivasan.</h2>
+            <p>
+              I'm an aspiring AI Engineer with a strong focus on building practical ML solutions, plus a passion for
+              clean UI/visual design. My goal is simple: make products look premium and work smarter.
+            </p>
+          </div>
+
+          <div class="aboutGrid">
+            <div class="panel">
+              <h3>What I do</h3>
+              <ul class="list">
+                <li><strong>AI &amp; ML:</strong> model building, experimentation, evaluation, insights.</li>
+                <li><strong>Data:</strong> cleaning, analysis, dashboards, decision-ready reports.</li>
+                <li><strong>Design:</strong> modern UI layouts, visual hierarchy, brand consistency.</li>
+                <li><strong>Web:</strong> fast, mobile-first websites that improve conversions.</li>
+              </ul>
+            </div>
+
+            <div class="panel panel--glow">
+              <h3>Quick details</h3>
+              <div class="kv">
+                <div class="kv__row">
+                  <span class="kv__k">Email</span>
+                  <a class="kv__v link" href="mailto:n92581342@gmail.com">n92581342@gmail.com</a>
+                </div>
+                <div class="kv__row">
+                  <span class="kv__k">Phone</span>
+                  <a class="kv__v link" href="tel:+917812876115">+91 78128 76115</a>
+                </div>
+                <div class="kv__row">
+                  <span class="kv__k">LinkedIn</span>
+                  <a
+                    class="kv__v link"
+                    href="https://www.linkedin.com/in/nandhish-srinivasan-b8bb51308/"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Open profile</a
+                  >
+                </div>
+              </div>
+
+              <div class="miniCta">
+                <a class="btn btn--sm btn--gold" href="#contact">Message Me</a>
+                <a class="btn btn--sm btn--ghost" href="#services">See Packages</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <div class="container">
+          <div class="sectionHead">
+            <div class="kicker">Skills</div>
+            <h2>AI thinking + design polish + delivery speed.</h2>
+            <p>Built for real-world outcomes: clarity, performance, and conversions.</p>
+          </div>
+
+          <div class="cards3">
+            <article class="card">
+              <h3>Machine Learning</h3>
+              <p>Problem framing, feature thinking, training/evaluation, and practical deployment mindset.</p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Data prep</span>
+                <span class="tag">Evaluation</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Deep Learning</h3>
+              <p>Neural network fundamentals with an emphasis on experiments, metrics, and iteration.</p>
+              <div class="tags">
+                <span class="tag">Training loops</span>
+                <span class="tag">Tuning</span>
+                <span class="tag">Optimization</span>
+              </div>
+            </article>
+            <article class="card">
+              <h3>AI Prompting</h3>
+              <p>Structured prompting for consistent outputs: tone control, templates, and automation workflows.</p>
+              <div class="tags">
+                <span class="tag">Prompt design</span>
+                <span class="tag">Guardrails</span>
+                <span class="tag">Automation</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="cards2">
+            <article class="card card--wide">
+              <h3>Data Analysis</h3>
+              <p>
+                Cleaning messy data, finding patterns, and turning it into decisions. Clear charts, concise insights,
+                and business-ready summaries.
+              </p>
+            </article>
+            <article class="card card--wide">
+              <h3>UI/Visual Design + Web</h3>
+              <p>
+                Luxury dark-mode layouts, strong typography, and micro-interactions that make brands feel premium and
+                trustworthy—especially on mobile.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section id="services">
+        <div class="container">
+          <div class="sectionHead">
+            <div class="kicker">Services</div>
+            <h2>Two priorities. One clear outcome: better business.</h2>
+            <p>Web development first — AI receptionist second — both designed to boost trust and leads.</p>
+          </div>
+
+          <div class="serviceGrid">
+            <article class="service service--primary">
+              <div class="service__top">
+                <h3>Web Development (Primary)</h3>
+                <span class="price">₹5,000+</span>
+              </div>
+              <p>
+                Fast, premium single‑page sites (restaurant/business) with menu, call/email buttons, and Swiggy/Zomato
+                redirect workflow.
+              </p>
+              <ul class="bullets">
+                <li>Mobile-first + premium dark mode</li>
+                <li>Menu cards + strong CTA buttons</li>
+                <li>Delivered quickly (2–3 days)</li>
+              </ul>
+              <div class="service__cta">
+                <a class="btn btn--sm btn--gold" href="#contact">Get a Quote</a>
+                <a class="btn btn--sm btn--ghost" href="tel:+917812876115">Call Now</a>
+              </div>
+            </article>
+
+            <article class="service">
+              <div class="service__top">
+                <h3>UI / Graphic Design</h3>
+                <span class="price">Custom</span>
+              </div>
+              <p>
+                Clean UI layout, posters, and social-ready visuals that match your brand and improve first impression.
+              </p>
+              <ul class="bullets">
+                <li>Modern layouts + hierarchy</li>
+                <li>Premium typography + color systems</li>
+                <li>Designed for conversions</li>
+              </ul>
+              <div class="service__cta">
+                <a class="btn btn--sm btn--gold" href="mailto:n92581342@gmail.com">Email Brief</a>
+                <a class="btn btn--sm btn--ghost" href="#contact">Contact</a>
+              </div>
+            </article>
+
+            <article class="service">
+              <div class="service__top">
+                <h3>AI Receptionist (Second Priority)</h3>
+                <span class="price">In progress</span>
+              </div>
+              <p>
+                An AI-based receptionist that can handle FAQs, capture leads, and guide users—so you never miss a query.
+              </p>
+              <ul class="bullets">
+                <li>Lead capture + smart replies</li>
+                <li>Business-specific prompts</li>
+                <li>Website integration ready</li>
+              </ul>
+              <div class="service__cta">
+                <a class="btn btn--sm btn--gold" href="#contact">Join Waitlist</a>
+                <a
+                  class="btn btn--sm btn--ghost"
+                  href="https://www.linkedin.com/in/nandhish-srinivasan-b8bb51308/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Connect</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact__inner">
+            <div>
+              <div class="kicker">Contact</div>
+              <h2>Let's build something premium.</h2>
+              <p>
+                If you're a business owner or recruiter, you can reach me instantly. I respond fast and keep the process
+                simple.
+              </p>
+            </div>
+            <div class="contact__actions">
+              <a class="btn btn--gold pulse" href="tel:+917812876115">📞 Call: 7812876115</a>
+              <a class="btn btn--ghost" href="mailto:n92581342@gmail.com">✉️ Email: n92581342@gmail.com</a>
+              <a
+                class="btn btn--ghost"
+                href="https://www.linkedin.com/in/nandhish-srinivasan-b8bb51308/"
+                target="_blank"
+                rel="noreferrer"
+                >in LinkedIn Profile</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>© 2026 Nandhish Srinivasan. Crafted in dark luxury.</div>
+        <div class="footer__right">
+          <a class="link" href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
