@@ -1,6 +1,7 @@
 # Nandhish Srinivasan — AI + Professional Portfolio SaaS
 
 ##Intern ID: CITS4146
+
 ##Organization: Codtech IT Solutions Private Limited
  
 A premium, single-page personal portfolio website showcasing AI/ML expertise, UI/graphic design skills, and web development services. Built with vanilla HTML, CSS, and JavaScript, featuring a dark luxury aesthetic with an animated 3D canvas background.
